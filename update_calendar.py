@@ -5,7 +5,7 @@ import sys
 from datetime import timedelta
 
 # --- CONFIGURATION ---
-ICS_URL = "https://cloud.timeedit.net/bth/web/sched1/ri67oQ5y6X2Z8QQ579895ZQ5ylZ135y2ZX4Y255Q827Xq5l9X0W16Tuo71XVnXol5X896oW8Z5469oogZXb8mcXX9W7W223WQXbqQ5r0ZQQbeZ6u61cn.ics"
+ICS_URL = "https://cloud.timeedit.net/bth/web/sched1/ri67XQoW6l2ZQ9Q5Q58q44n5yWZX3562oZoYXlyQ0276TZ5ycg8WX2t8u0XQWolZ9oZnV3e18771X6o56Qd829Q61WuXXb3bQZ217Z4l5j84j9m87E867E54DC32l161Z72C6tDj71Q3376EC356761215.ics"
 OUTPUT_FILE = 'modified_calendar.ics'
 
 COURSE_MAP = {
@@ -100,3 +100,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
