@@ -28,9 +28,6 @@ def modify_event(event):
     if any(x in summary or x in description for x in ['MA0007', 'Mattestuga']):
         return None
 
-    # 2. TIME ADJUSTMENT (15-Minute Start Shift ONLY)
-    if event.get('dtstart'):
-        event['dtstart'].dt += timedelta(minutes=15)
         
     # Safety: ensure start isn't >= end
     if event.get('dtstart') and event.get('dtend'):
@@ -100,4 +97,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
